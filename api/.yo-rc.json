@@ -1,0 +1,7 @@
+{
+  "@space-uy/generator-space-backend": {
+    "version": "2.1.0",
+    "features": [],
+    "middleware": []
+  }
+}
