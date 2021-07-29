@@ -11,6 +11,7 @@ dotenv.config();
 
 mercadopago.configure({
   access_token: process.env.MERCADO_LIBRE_ACCESS_TOKEN,
+  integrator_id: 'dev_24c65fb163bf11ea96500242ac130004',
 });
 
 app.post('/', async (req, res) => {
