@@ -11,7 +11,7 @@ const Main = () => {
         picture_url:'https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg'
     },
     {
-        id: 2,
+        id: 1234,
         title: "Iphone XY",
         unit_price: 2000,
         currency_id: 'UYU',

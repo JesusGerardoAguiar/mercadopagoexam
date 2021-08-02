@@ -19,10 +19,10 @@ const products = [
     quantity: 1,
   },
   {
-    id: 2,
+    id: 1234,
     title: "Iphone XY",
     unit_price: 2000,
-    currency_id: "UYU",
+    currency_id: "",
     description: "Este es un iphone XY",
     category_id: "iphone",
     picture_url:
