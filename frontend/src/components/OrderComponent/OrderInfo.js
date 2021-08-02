@@ -21,7 +21,7 @@ const products = [
     title: "Iphone XY",
     unit_price: 2000,
     currency_id: "UYU",
-    description: "Este es un iphone XY",
+    description: "Dispositivo móvil de Tienda e-commerce",
     category_id: "iphone",
     picture_url:
       "https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg",
