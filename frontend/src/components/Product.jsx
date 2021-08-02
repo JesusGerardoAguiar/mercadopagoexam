@@ -23,7 +23,7 @@ const products = [
     title: "Iphone XY",
     unit_price: 2000,
     currency_id: "",
-    description: "Este es un iphone XY",
+    description: "Dispositivo móvil de Tienda e-commerce",
     category_id: "iphone",
     picture_url:
       "https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg",
@@ -43,7 +43,7 @@ const Product = (props) => {
       payer: {
         name: "Lalo",
         surname: "Landa",
-        email: "jesusaguiar@mailinator.com",
+        email: "test_user_63274575@testuser.com",
         state: 'montevideo',
     country: 'Uruguay',
         phone: {
@@ -76,8 +76,8 @@ const Product = (props) => {
         installments: 6,
       },
       notification_url: `${process.env.REACT_APP_API}payment-notification`,
-      external_reference: "test_user_63274575@testuser.com",
-      auto_return: "all",
+      external_reference: "aguiarf.j16@gmail.com",
+      auto_return: "approved",
     };
 
     const response = await axiosClient.post('basic-checkout', { ...checkoutInfo });
