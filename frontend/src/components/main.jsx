@@ -6,7 +6,7 @@ const Main = () => {
         title: "Iphone X",
         unit_price: 1000,
         currency_id: 'UYU',
-        description: "Dispositivo móvil de Tienda e-commerce",
+        description: "“Dispositivo móvil de Tienda e-commerce”",
         category_id:'iphone',
         picture_url:'https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg'
     },
@@ -15,7 +15,7 @@ const Main = () => {
         title: "Iphone XY",
         unit_price: 2000,
         currency_id: 'UYU',
-        description: "Dispositivo móvil de Tienda e-commerce",
+        description: "“Dispositivo móvil de Tienda e-commerce”",
         category_id:'iphone',
         picture_url:'https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg'
     }]
@@ -44,7 +44,7 @@ const Main = () => {
               />
               <div style={{ padding: '0.5rem', display: "flex", flexDirection: 'column' }}>
               <h4>{product.title}</h4>
-                <p>${product.description}</p>
+                <p>{product.description}</p>
                 <p>categoria: {product.category_id}</p>
                 <p>Precio: ${product.unit_price} ${product.currency_id}</p>
               <a href={`/product/${product.id}`}>Ver Detalle</a>
