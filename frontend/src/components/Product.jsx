@@ -43,11 +43,14 @@ const Product = (props) => {
       payer: {
         name: "Lalo",
         surname: "Landa",
-        email: "test_user_63274575@testuser.com",
+        email: "jesusaguiar@mailinator.com",
+        state: 'montevideo',
+    country: 'Uruguay',
         phone: {
           area_code: "11",
           number: "22223333",
         },
+        identification: { type: "DNI", number: '62381076' },
         address: {
           street_name: "Falsa",
           street_number: 123,
@@ -73,7 +76,7 @@ const Product = (props) => {
         installments: 6,
       },
       notification_url: `${process.env.REACT_APP_API}payment-notification`,
-      external_reference: "aguiarf.j16@gmail.com",
+      external_reference: "test_user_63274575@testuser.com",
       auto_return: "all",
     };
 

@@ -235,6 +235,7 @@ const OrderInfo = ({ orderClass, orderInfoParsed}) => {
           <div>
           payment_method_id: {orderInfoParsed.payment_type}<br />
           external_reference: {orderInfoParsed.external_reference}<br />
+          preference_id: {orderInfoParsed.preference_id}<br />
           payment_id: {orderInfoParsed.payment_id}<br />
           collection_id: {orderInfoParsed.collection_id}<br />
           </div>
