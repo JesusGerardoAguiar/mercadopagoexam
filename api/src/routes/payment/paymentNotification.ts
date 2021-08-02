@@ -17,7 +17,7 @@ mercadopago.configure({
 app.post('/', async (req, res) => {
   try {
     console.log(req);
-    return res.status(200);
+    return res.status(200).json({ success: true });
   } catch (e) {
     return res.status(500).json({ success: false, message: e });
   }

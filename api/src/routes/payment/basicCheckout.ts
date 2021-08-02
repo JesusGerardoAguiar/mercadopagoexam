@@ -29,6 +29,7 @@ app.post('/', async (req, res) => {
       .then((response: any) => {
         (global as any).init_point = response.body.init_point;
         return res.json({ init_point: response.body.init_point });
+        // return res.json({ init_point: response.body.sandbox_init_point });
       })
       .catch((error: any) => {
         return res.status(500).json({ success: false, message: error.message });
