@@ -21,7 +21,10 @@ app.post('/', async (req, res) => {
       ...req.body,
       items,
       // tslint:disable-next-line: radix
-      payer: { ...req.body.payer, phone: { number: parseInt(req.body.payer.phone.number) } },
+      payer: {
+        ...req.body.payer,
+        phone: { ...req.body.payer.phone, number: parseInt(req.body.payer.phone.number) },
+      },
     };
 
     mercadopago.preferences
